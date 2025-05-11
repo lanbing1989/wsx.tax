@@ -1,23 +1,98 @@
 body {
-  background: #f7f9fa;
-  font-family: '微软雅黑', Arial, sans-serif;
+  background: #f5f7fa;
+  font-family: 'Segoe UI', '微软雅黑', Arial, sans-serif;
+  color: #232d3b;
+  line-height: 1.7;
 }
+
 .container {
   background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px #e4e7ed;
-  padding: 24px 18px 12px 18px;
-  margin-bottom: 36px;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px 0 rgba(35, 118, 183, 0.07), 0 1.5px 4px 0 rgba(60, 72, 88, 0.06);
+  padding: 32px 24px 18px 24px;
+  margin-bottom: 40px;
+  transition: box-shadow 0.2s;
 }
+
+.container:hover {
+  box-shadow: 0 8px 32px 0 rgba(35, 118, 183, 0.12), 0 2px 8px 0 rgba(60, 72, 88, 0.10);
+}
+
 .navbar-brand {
   font-weight: bold;
-  color: #d7263d !important;
+  color: #2376b7 !important;
+  font-size: 1.5em;
+  letter-spacing: 1px;
 }
-.nav-link.active, .nav-link:focus, .nav-link:hover {
-  color: #d7263d !important;
+
+.nav-link {
+  color: #1a3557 !important;
+  font-weight: 500;
+  transition: color 0.2s, border-bottom 0.2s;
 }
+
+.nav-link.active,
+.nav-link:focus,
+.nav-link:hover {
+  color: #2376b7 !important;
+  border-bottom: 2px solid #2376b7;
+  background: none;
+}
+
 .tax-tool-link {
-  font-size:1.2em;
-  padding:10px 0;
-  display:block;
+  font-size: 1.15em;
+  padding: 12px 0;
+  display: block;
+  color: #2376b7;
+  background: #f0f4fa;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 12px;
+  text-decoration: none;
+  border: 1px solid #ebf0f3;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.tax-tool-link:hover,
+.tax-tool-link:focus {
+  background: #e6f1fa;
+  color: #1a3557;
+  box-shadow: 0 2px 12px 0 rgba(35, 118, 183, 0.08);
+  text-decoration: none;
+}
+
+h2, h5 {
+  color: #2376b7;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 18px 8px 12px 8px;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1.05rem;
+  }
+}
+
+footer {
+  color: #8a99a8;
+  font-size: 0.95em;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 30px;
+  background: none;
+  border-top: 1px solid #e3e8ee;
 }
