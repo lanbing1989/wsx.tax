@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['profit'])) {
     <title>企业所得税计算器 - 汶上县涉税专业服务行业协会</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         @media (min-width: 768px) {
             .tax-col { min-width: 340px; }

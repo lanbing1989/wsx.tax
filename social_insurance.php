@@ -5,7 +5,7 @@
     <title>五险一金计算器 - 山东省标准</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
     .ins-table td, .ins-table th { font-size: 15px; }
     </style>

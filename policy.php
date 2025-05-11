@@ -5,7 +5,7 @@
     <title>政策法规 - 汶上县涉税专业服务行业协会</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
     .iframe-wrap { border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px #0002; border: 1px solid #e0e0e0; margin-top:20px; }
     </style>
